@@ -1,0 +1,339 @@
+/* IMPORTS  */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* VARS */
+:root {
+    --fuentePrincipal: 'Space Mono', monospace;
+    --fuenteTexto: 'Poppins', sans-serif;
+    --fuenteSecundaria: 'Raleway', sans-serif;
+    /** Colores **/
+    --colorPrimario: #A12559;
+    --grisOscuro: #161616;
+    --grisClaro: #8b8b8b;
+    --blanco: #FFFFFF;
+    --negro: #000000;
+}
+
+/* GENERAL  */
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+Header {
+    padding: 1%;
+    font-size: 18px;
+    background-color: var(--grisOscuro);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #E63E6D;
+}
+
+h2,
+h3 {
+    font-family: var(--fuentePrincipal);
+}
+
+p {
+    font-family: var(--fuenteTexto);
+}
+
+i {
+    color: var(--colorPrimario);
+}
+
+form div {
+    margin-bottom: 0.5em;
+}
+
+/* ID */
+#hero {
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/10/lines-stripes-red-light-dark-background-4k_1539369745.jpg);
+    background-attachment: fixed;
+    padding: 300px 100px;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 4em;
+}
+
+#hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--colorPrimario);
+}
+
+#hero h2 {
+    font-family: var(--fuenteTexto);
+    font-size: 70px;
+    color: var(--blanco);
+    position: relative
+}
+
+#hero h3 {
+    font-size: 30px;
+    color: var(--blanco);
+    position: relative
+}
+
+#hero p {
+    font-size: 12px;
+    color: var(--blanco);
+    position: relative
+}
+#proximoevento{
+    background-image: url(./../img/indice/WhatsApp\ Image\ 2023-03-01\ at\ 11.40.15.jpeg);
+    /* background-attachment: fixed; */
+    padding: 300px 100px;
+    height: 2000px;
+    object-fit: contain;
+    text-align: center;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 4em;
+}
+/* #lastEvent {
+    margin-top: 1em;
+    background-image: url(./../img/indice/Storie\ \(1\).jpg);
+    padding: 80% 1px;
+    margin: 1%;
+    margin-top: 8%;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+} */
+#miembros {
+   
+
+}
+
+#lastEvent2 {
+  
+}
+
+
+
+#newsLetter {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.pixel4k.com/wp-content/uploads/2018/10/lines-stripes-red-light-dark-background-4k_1539369745.jpg);
+    background-attachment: fixed;
+    padding: 300px 100px;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* CLASSES */
+
+.border {
+    border: 2px solid red;
+}
+
+
+.nav a {
+    margin: 1em;
+}
+
+.flexCenterRow {
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexCenterColumn {
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundRosa {
+    background: var(--colorPrimario);
+}
+
+.rosa {
+    color: var(--colorPrimario);
+}
+
+.backgroundNegro {
+    background: var(--grisOscuro);
+    padding: 2rem;
+    color: var(--blanco);
+}
+.backgroundGris {
+    background: var(--grisClaro);
+    padding: 2rem;
+}
+
+.ancho50 {
+    width: 42%;
+}
+
+.blanco {
+    color: var(--blanco);
+}
+
+.boxshadow {
+    box-shadow: 5px 5px 3px var(--blanco);
+}
+
+.container1 {
+    box-shadow: 1px 4px 12px 2px rgba(0, 0, 0, 0.41);
+    border-radius: 8px;
+    padding: 20px;
+    height: 200px;
+    margin: 10px;
+
+}
+
+.boxShadowNegra {
+    box-shadow: 1px 2px 12px 1px rgba(0, 0, 0, 0.41);
+    border-radius: 8px;
+
+}
+
+.boton {
+    background: var(--colorPrimario);
+    color: var(--blanco);
+    border-radius: 4px;
+    padding: 8px;
+    transition: 0.5s;
+}
+
+
+.boton:hover {
+    background: var(--blanco);
+    color: var(--colorPrimario);
+    border-radius: 4px;
+    border: 1px solid var(--colorPrimario)
+}
+.botonNegro {
+    background: var(--grisOscuro);
+    color: var(--blanco);
+    border-radius: 4px;
+    padding: 8px;
+    transition: 0.5s;
+}
+.botonNegro:hover {
+    background: var(--blanco);
+    color: var(--grisOscuro);
+    border-radius: 4px;
+    border: 1px solid var(--colorPrimario)
+}
+.card {
+
+    transition: 00.3s;
+    transition: transform 0.9s;
+}
+
+.card:hover {
+    box-shadow: 1px 2px 12px 3px rgba(0, 0, 0, 0.41);
+}
+
+.card img:hover {
+    transform: scale(1.01);
+
+
+}
+
+.gradient {
+    background: rgb(14, 14, 14);
+    background: linear-gradient(0deg, var(--grisOscuro),  30%, rgb(255, 255, 255) 66%, rgba(255, 255, 255, 1) 100%);
+    padding-bottom: 1em;
+}
+
+.sectionRosa {
+    background: var(--colorPrimario);
+    color: var(--blanco);
+    padding: 2rem;
+}
+
+.marginTop {
+    margin-top: 2rem;
+}
+
+
+
+.formulario {
+    margin: 0px auto;
+    width: 50%;
+    padding: 3%;
+}
+
+.galeria {
+    padding: 3%;
+    columns: 5 320px;
+    column-gap: 0.5em;
+
+}
+
+.galeria img {
+    margin-bottom: 0.5em;
+}
+
+.filaHeader {
+    display: flex;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--colorPrimario);
+    box-shadow: 0 0 0 0.2rem rgba(241, 19, 156, 0.25);
+}
+
+.form-select option {
+    background-color: var(--colorPrimario);
+    color: var(--blanco);
+}
+
+.form-check:checked {
+    background: var(--colorPrimario);
+}
+.nkFondo{
+    background-image: url(./../img/indice/nkRoom.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: 10%;
+}
+.carrusel {
+    
+    max-width: 100%;
+    background-color: var(--grisOscuro);
+    padding: 2em;
+}
+.carrusel img{
+    object-fit: contain;
+    height: 600px;
+    max-width: 100%;
+} 
+/* FORM BLUR

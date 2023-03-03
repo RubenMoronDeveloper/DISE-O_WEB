@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#hero{
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/10/lines-stripes-red-light-dark-background-4k_1539369745.jpg);
+    background-attachment: fixed ;
+    padding: 300px 100px;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    
+    
+}
+#hero:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+    color: #A12559;
+}
+#hero h2 {
+    font-family: 'Poppins', sans-serif;
+	font-size: 70px;
+	color: white;
+	position: relative
+}
+#hero h3 {
+	font-size: 30px;
+	color: white;
+	position: relative
+}
+#hero p {
+	font-size: 12px;
+	color: white;
+	position: relative
+}
+
+
+Header {
+    padding: 1%;
+    font-size: 18px;
+    background-color: #161616;
+  
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    
+    
+}
+.border{
+    border: 2px solid red;
+}
+a{
+    text-decoration: none;
+    
+    color:white;
+    margin: 10px;
+    font-family: 'Space Mono', monospace;
+    transition: 0.4s;
+}
+a:hover{
+    color: #E63E6D;
+    
+}
+h2, h3{
+    font-family: 'Space Mono', monospace;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.flexCenterRow{
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flexCenterColumn{
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.backgroundRosa{
+    background: #A12559;
+}
+.rosa{
+    color: #A12559;
+}
+.backgroundNegro{
+    background: #161616;
+}
+.ancho50{
+    width: 42%;
+}
+.blanco{
+    color: white;
+}
+.boxshadow{
+    box-shadow: 5px 5px 3px white;
+}
+.container1{
+   
+    
+    box-shadow: 1px 4px 12px 2px rgba(0,0,0,0.41);
+    border-radius: 8px;
+    padding: 20px;
+    height: 200px;
+    margin: 10px;
+
+}
+.boxShadowNegra{
+    box-shadow: 1px 2px 12px 1px rgba(0,0,0,0.41);
+    border-radius: 8px;
+    
+}
+.boton{
+    
+    background: #A12559;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    transition: 0.5s;
+}
+.boton:hover{
+    background: white;
+    color: #A12559;
+    border-radius: 4px;
+    border: 1px solid #A12559
+    
+}
+.card{
+    
+    transition: 00.3s;
+    transition: transform 0.9s; 
+}
+.card:hover{
+    box-shadow: 1px 2px 12px 3px rgba(0,0,0,0.41);
+}
+.card img:hover{
+    transform: scale(1.01); 
+    
+    
+}
+.gradient{
+    background: rgb(14,14,14);
+background: linear-gradient(0deg, rgba(14,14,14,0.5354516806722689) 0%, rgba(54,54,54,0.7511379551820728) 35%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 100%);
+padding-bottom: 1em;
+}
+.sectionRosa{
+    background: #A12559;
+    color: white;
+    padding: 2rem;
+}
+.marginTop{
+    margin-top: 2rem;
+}
+
+#lastEvent{
+    margin-top: 1em;
+    background-image: url(Storie\ \(1\).jpg);    
+    padding: 80% 1px;
+    margin: 1%;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#miembros{
+    padding: 10px;
+    margin-left: 1em;
+}
+i{
+    color: #A12559;
+}
+#newsLetter{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://www.pixel4k.com/wp-content/uploads/2018/10/lines-stripes-red-light-dark-background-4k_1539369745.jpg);
+    background-attachment: fixed ;
+    padding: 300px 100px;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.formulario{
+    color: white;
+    background:#161616 ;
+}
